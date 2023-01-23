@@ -17,19 +17,18 @@ To add your own images, add PNG files to the images/ folder.
 
 Go to main.cpp and modify the parameters:
 ```C++
-origImg1.readFromFile("images/starry-night.png");
-origImg2.readFromFile("images/mona-lisa.png");
-origImg3.readFromFile("images/hokusai.png");
+origImg1.readFromFile("images/photo.png");
 ```
 To play with the pixelation effect, modify the parameters:
 ```C++
 t1.prune(0.99, 8500);
-t2.prune(0.99, 8500);
-t3.prune(0.95, 8500);
 ```
 Finally, to change the output image names, modify the parameters:
 ```C++
-pic1.writeToFile("images/output-starry-night.png");
-pic2.writeToFile("images/output-mona-lisa.png");
-pic3.writeToFile("images/output-hokusai.png");
+pic1.writeToFile("images/output-photo.png");
 ```
+##Before:
+![](images/photo.png)
+
+##After
+![](images/output-photo.png)

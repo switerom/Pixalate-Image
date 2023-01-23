@@ -10,7 +10,7 @@ int main() {
 	PNG origImg1;
 
 	//choose file to process
-	origImg1.readFromFile("images/starry-night.png");
+origImg1.readFromFile("images/photo.png");
 
 	twoDtree t1(origImg1);
 
@@ -20,7 +20,7 @@ int main() {
 	PNG pic1 = t1.render();
 
 	//write to file
-	pic1.writeToFile("images/output-starry-night.png");
+	pic1.writeToFile("images/output-photo.png");
 	
 	return 0;
 }
