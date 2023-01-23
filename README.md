@@ -12,7 +12,7 @@ And once that is finished, run the project using:
 ```
 Once this is completed the output will be in the images/ folder.
 
-##Change pixelation effect
+## Change pixelation effect
 To add your own images, add PNG files to the images/ folder.
 
 Go to main.cpp and modify the parameters:
@@ -27,8 +27,6 @@ Finally, to change the output image names, modify the parameters:
 ```C++
 pic1.writeToFile("images/output-photo.png");
 ```
-##Before:
-![](images/photo.png)
+## Before/After:
 
-##After
-![](images/output-photo.png)
+![](doc/before-after.png)
